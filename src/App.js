@@ -6,7 +6,7 @@ function App() {
       <div className="main-content">
         <div>Sandeep Edara</div>
         <div className="sub-content">
-          <div className="sub-heading">Software Engineer, Walmart</div>
+          <div className="sub-heading">Senior Software Engineer, Walmart</div>
           <div className="sub-heading">Bengaluru</div>
         </div>
       </div>
