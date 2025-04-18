@@ -10,6 +10,9 @@
 
 # production
 /build
+/dist
+/out
+/.next
 
 # misc
 .DS_Store
