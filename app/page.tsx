@@ -85,7 +85,7 @@ const experiences = [
   },
   {
     company: "TCS",
-    products: "Data visualization CoE, Digitate, IPRMS, BaNCS"
+    products: "Data visualization CoE, Digitate, IPRMS, BaNCS",
     position: "Lead Engineer",
     period: "2012 - 2017",
   },
