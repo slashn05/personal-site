@@ -50,6 +50,7 @@ export default function Home() {
             <div key={experience.company} className="flex justify-between py-2">
               <div>
                 <h4 className="font-medium">{experience.company}</h4>
+                <p className="text-gray-500">{experience.products}</p>
               </div>
               <div className="text-right">
                 <p className="text-gray-500">{experience.position}</p>
@@ -66,21 +67,25 @@ export default function Home() {
 const experiences = [
   {
     company: "Walmart",
+    products: " ",
     position: "Sr. Software Engineer",
     period: "2020 - now",
   },
   {
     company: "Smartbear",
+    products: "Zephyr for Jira, Capture for Jira",
     position: "Software Engineer",
     period: "2018 - 2020",
   },
   {
     company: "Mindtree",
+    products: "CAPE",
     position: "Lead Engineer",
     period: "2017 - 2018",
   },
   {
-    company: "TCS - Data visualization CoE",
+    company: "TCS",
+    products: "Data visualization CoE, Digitate, IPRMS, BaNCS"
     position: "Lead Engineer",
     period: "2012 - 2017",
   },
