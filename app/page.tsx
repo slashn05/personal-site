@@ -50,7 +50,7 @@ export default function Home() {
             <div key={experience.company} className="flex justify-between py-2">
               <div>
                 <h4 className="font-medium">{experience.company}</h4>
-                <p className="text-gray-500">{experience.products}</p>
+                <p className="text-sm text-gray-500">{experience.products}</p>
               </div>
               <div className="text-right">
                 <p className="text-gray-500">{experience.position}</p>
