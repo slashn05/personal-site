@@ -30,7 +30,7 @@ export default function Home() {
       <div className="space-y-6 mb-12 text-gray-500">
         <p>
           I'm a software engineer from Bengaluru, India with a deep focus on web technologies. Currently, I work at{" "}
-          <Link href="www.walmart.com" className="underline underline-offset-4">
+          <Link href="www.walmart.com" target="_blank" className="underline underline-offset-4">
             Walmart
           </Link>
           , developing experiences for the store associates.
